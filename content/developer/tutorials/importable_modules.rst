@@ -835,7 +835,7 @@ to return, one can assign a response-like object to the `response` variable, whi
 returned to the website automatically.
 
 Here is an example of a simple website controller that will return a list of properties
-when the URL `/actions/estate` is called:
+when the URL `/website/action/estate` is called:
 
 .. code-block:: xml
 
@@ -898,7 +898,7 @@ by using `sudo` to access records).
    #. add a record rule so that properties marked as `x_api_published` can be read by the
       public user
    #. add a server action to return a list of properties in JSON format when the URL
-      `/actions/api/estate` is called
+      `/website/action/estate` is called
 
 A sprinkle of JavaScript
 ========================
