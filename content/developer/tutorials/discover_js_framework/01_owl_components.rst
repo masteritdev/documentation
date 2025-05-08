@@ -56,7 +56,7 @@ button.
        }
    }
 
-The `Counter` component specifies the name of a template that represents its html. It is written in XML
+The `Counter` component specifies the name of a template that represents its HTML. It is written in XML
 using the QWeb language:
 
 .. code-block:: xml
