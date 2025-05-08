@@ -943,6 +943,20 @@ You then need to include the file in the appropriate bundle in the manifest file
         },
     }
 
+You also need to add an xml record in a new estate_tour.xml file in the data folder so that your tour is displayed:
+
+.. code-block:: xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+    <odoo>
+        <record id="estate_tour" model="web_tour.tour">
+            <field name="name">estate_tour</field>
+            <field name="sequence">2</field>
+            <field name="rainbow_man_message">Welcome! Happy exploring.</field>    
+        </record>
+    </odoo>
+
+
 .. note::
     Unlike normal Python modules, glob expansion is not supported in importable modules;
     so you need to list each file you want to include in the module specifically.
