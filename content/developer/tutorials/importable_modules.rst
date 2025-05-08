@@ -952,7 +952,7 @@ You also need to add an xml record in a new estate_tour.xml file in the data fol
         <record id="estate_tour" model="web_tour.tour">
             <field name="name">estate_tour</field>
             <field name="sequence">2</field>
-            <field name="rainbow_man_message">Welcome! Happy exploring.</field>    
+            <field name="rainbow_man_message">Welcome! Happy exploring.</field>
         </record>
     </odoo>
 
